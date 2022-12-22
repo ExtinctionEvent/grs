@@ -47,4 +47,5 @@ _ = pd.DataFrame(df_X_new_train, columns=['CRIM', 'DIS']).hist()
 # scale test dataset with the fitted scaler
 df_X_new_test = scaler.transform(df_X_test[['CRIM', 'DIS']])
 ```
-# grs
+## This is a direct copy of the repositopry by Aldente06030 packaged for pip
+(https://github.com/aldente0630/gauss-rank-scaler)
