@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name='gauss-rank-scaler',                           # should match the package folder
     packages=['gauss-rank-scaler'],                     # should match the package folder
-    version='0.0.1',                                # important for updates
+    version='0.0.3',                                # important for updates
     license='BSD',                                  # should match your chosen license
     description='A scikit-learn style transformer that scales numeric variables to normal distributions',
     long_description=long_description,              # loads your README.md
@@ -15,7 +15,7 @@ setuptools.setup(
     author='aldente0630',
     author_email='aldente0630@gmail.com',
     url='https://github.com/aldente0630/gauss-rank-scaler.git', 
-    install_requires=['numpy', 'joblib', 'scipy', 'sklearn'],  # list all packages that your package uses
+    install_requires=['numpy', 'joblib', 'scipy', 'scikit-learn'],  # list all packages that your package uses
     keywords=["pypi", "rank scaler", "guassian rank", "guassian rank scaler"], #descriptive meta-data
     classifiers=[                                   # https://pypi.org/classifiers
         'Development Status :: 3 - Alpha',
